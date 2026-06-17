@@ -1,349 +1,525 @@
 # Carousel Pose Library
 
-Visual pose asset repository for AI-assisted content creation, educational carousels, informational posts, social media graphics, and visual storytelling.
+AI-Ready Visual Pose Repository for Educational, Informational, and Social Media Carousel Content using the SCRIPT Framework.
 
 ---
 
-## Overview
+# Overview
 
-This repository contains a curated collection of pose assets designed to enhance carousel-based content while maintaining readability and information hierarchy.
+Carousel Pose Library is a structured visual asset repository designed to help AI systems and content creators generate engaging carousel content while maintaining readability, information hierarchy, and visual consistency.
 
-The pose assets serve as supporting visual elements rather than primary content elements.
+This repository contains:
 
-These assets are intended for:
+- Pose Assets
+- Pose Metadata
+- Asset Usage Guidelines
+- Carousel Framework Rules
+- Slide Layout Rules
 
-* Educational carousels
-* Informational content
-* Social media posts
-* Tutorials
-* Step-by-step guides
-* Awareness campaigns
-* Marketing explanations
-* Business insights
-* Infographics
-* Visual storytelling
+The repository is intended to function as a visual knowledge base for AI-assisted carousel generation.
 
 ---
 
-## Design Philosophy
+# Primary Objective
 
-The primary focus of every carousel should remain on:
+The primary goal of this repository is to improve communication through supporting visual elements without sacrificing content clarity.
 
-1. Headline
-2. Core Information
-3. Supporting Visual Elements
+Pose assets should:
 
-Pose assets are used only to strengthen communication and visual engagement.
+✓ Support storytelling
 
-The assets should never dominate the slide or reduce readability.
+✓ Reinforce emotional context
+
+✓ Guide user attention
+
+✓ Increase engagement
+
+✓ Improve visual flow
+
+Pose assets should never:
+
+✗ Cover text
+
+✗ Replace information
+
+✗ Become the primary focus
+
+✗ Reduce readability
 
 ---
 
-## Repository Structure
+# Content Framework
+
+This repository follows the SCRIPT Framework.
+
+---
+
+## S — Scroll Stopper
+
+Purpose:
+
+- Stop scrolling
+- Create curiosity
+- Trigger emotion
+
+Examples:
+
+- Questions
+- Bold statements
+- Surprising facts
+- Common mistakes
+
+---
+
+## C — Context
+
+Purpose:
+
+- Explain relevance
+- Establish connection
+- Describe the problem
+
+Examples:
+
+- Pain points
+- Situations
+- User struggles
+
+---
+
+## R — Reveal
+
+Purpose:
+
+- Reveal hidden causes
+- Introduce new perspectives
+- Challenge assumptions
+
+Examples:
+
+- Myths
+- Hidden truths
+- Discoveries
+
+---
+
+## I — Insight
+
+Purpose:
+
+- Educate
+- Explain
+- Teach frameworks
+
+Examples:
+
+- Methods
+- Systems
+- Strategies
+- Principles
+
+---
+
+## P — Practical Action
+
+Purpose:
+
+- Provide actionable guidance
+
+Examples:
+
+- Tips
+- Checklists
+- Steps
+- Best practices
+
+---
+
+## T — Transformation
+
+Purpose:
+
+- Show outcomes
+- Reinforce benefits
+- Encourage action
+
+Examples:
+
+- Results
+- Summary
+- Call to action
+
+---
+
+# Repository Structure
 
 ```text
 carousel-pose-library/
 │
-├── README.md
-├── ASSET_GUIDE.md
-├── pose_catalog.json
-│
-├── poses/
+├── Poses/
 │   ├── Happy.png
 │   ├── Walking.png
 │   ├── Wondering.png
 │   ├── Sitting.png
 │   ├── Hello.png
-│   ├── Busy.png
-│   ├── Running.png
-│   ├── Shock.png
-│   ├── AHA_Moment.png
 │   └── ...
 │
-└── templates/
-    ├── carousel_rules.md
-    └── slide_layout_rules.md
+├── ASSET_GUIDE.md
+├── README.md
+├── carousel_rules.md
+├── pose_catalog.json
+└── slide_layout_rules.md
 ```
 
 ---
 
-## Asset Categories
+# Repository Components
 
-The repository contains poses representing:
+## Pose Assets
 
-### Positive Emotions
+Location:
 
-* Happy
-* Cheering
-* Clapping
-* Thumbs Up
-* Sarangheo
+```text
+Poses/
+```
 
-### Thinking & Reflection
+Contains all visual pose assets used by the carousel generation system.
 
-* Thinking
-* Wondering
-* Curious
+Examples:
 
-### Presentation & Guidance
-
-* Presenting
-* Pointing
-* Hello
-* Hi
-
-### Action & Movement
-
-* Walking
-* Running
-* Jumping
-
-### Work & Productivity
-
-* Busy
-* Using Handphone
-* Vlogging
-* Drink Coffee
-
-### Negative Emotions
-
-* Shock
-* Crying
-* Upset
-* Affraid
-* Weary
-
-### Interaction & Communication
-
-* Whispering
-* Hearing
-* Shouting
-* Yelling
-
-### Lifestyle
-
-* Sitting
-* Yoga
-* Laydown
-* Selfie
+- Happy
+- Walking
+- Thinking
+- Curious
+- Shock
+- Presenting
+- Pointing
+- AHA Moment
+- Thumbs Up
 
 ---
 
-## AI Usage Guidelines
+## Pose Catalog
 
-AI systems may use this repository as a visual reference source.
+Location:
 
-### Selection Process
+```text
+pose_catalog.json
+```
 
-1. Read content topic.
-2. Identify content purpose.
-3. Match slide intent with pose metadata.
-4. Select the most relevant pose.
-5. Apply layout rules.
-6. Preserve readability.
+Contains metadata used for automatic pose selection.
 
----
+Includes:
 
-## Cropping Rules
+- Pose ID
+- Emotion
+- Intent
+- Energy Level
+- Recommended Slides
+- Content Context
 
-The following crops are allowed:
-
-* Full Body
-* Three Quarter
-* Half Body
-* Medium Shot
-* Medium Close-Up
-* Close-Up
-* Extreme Close-Up
-
-AI may dynamically crop poses based on available space.
+Used by AI systems to determine the most suitable pose for a given slide.
 
 ---
 
-## Positioning Rules
+## Asset Guide
+
+Location:
+
+```text
+ASSET_GUIDE.md
+```
+
+Defines:
+
+- Asset usage rules
+- Crop rules
+- Flip rules
+- Text safety rules
+- Visual hierarchy rules
+
+---
+
+## Carousel Rules
+
+Location:
+
+```text
+carousel_rules.md
+```
+
+Defines:
+
+- SCRIPT implementation
+- Carousel structure
+- Emotional progression
+- Pose recommendation logic
+
+---
+
+## Slide Layout Rules
+
+Location:
+
+```text
+slide_layout_rules.md
+```
+
+Defines:
+
+- Layout structure
+- Safe zones
+- Text hierarchy
+- Pose placement
+- Crop recommendations
+- Density management
+
+---
+
+# Repository Loading Order
+
+When used by AI systems, files should be interpreted in the following order:
+
+1. README.md
+2. carousel_rules.md
+3. slide_layout_rules.md
+4. ASSET_GUIDE.md
+5. pose_catalog.json
+6. Poses/
+
+This order ensures proper understanding of:
+
+- Framework
+- Layout
+- Asset rules
+- Pose metadata
+- Visual assets
+
+---
+
+# AI Usage Workflow
+
+Recommended workflow:
+
+```text
+Read Topic
+      ↓
+Determine SCRIPT Stage
+      ↓
+Read carousel_rules.md
+      ↓
+Read slide_layout_rules.md
+      ↓
+Read ASSET_GUIDE.md
+      ↓
+Read pose_catalog.json
+      ↓
+Select Pose
+      ↓
+Determine Crop
+      ↓
+Determine Position
+      ↓
+Apply Flip if Needed
+      ↓
+Generate Slide
+```
+
+---
+
+# Pose Placement Rules
 
 Recommended placement:
 
-* Bottom Left
-* Bottom Right
-* Middle Left
-* Middle Right
+- Bottom Left
+- Bottom Right
+- Middle Left
+- Middle Right
 
 Avoid:
 
-* Center Text Area
-* Headline Area
-* Dense Information Blocks
+- Headline Area
+- Reading Area
+- Statistics Area
+- CTA Area
 
 ---
 
-## Flip Rules
+# Crop Rules
+
+Supported crop types:
+
+- Full Body
+- Three Quarter
+- Half Body
+- Medium Shot
+- Medium Close-Up
+- Close-Up
+- Extreme Close-Up
+
+Recommended default:
+
+```text
+Half Body
+```
+
+---
+
+# Flip Rules
 
 Allowed:
 
-* Horizontal Flip
+✓ Horizontal Flip
+
+Use when:
+
+- Character should face content
+- Character should point toward content
+- Character should direct attention
 
 Not Allowed:
 
-* Vertical Flip
-* Upside Down Rotation
+✗ Vertical Flip
 
-AI may automatically flip assets to improve composition.
-
----
-
-## Text Safety Rules
-
-The repository follows a text-first design principle.
-
-### Required
-
-* Maintain text readability.
-* Preserve content hierarchy.
-* Keep information visible.
-
-### Prohibited
-
-* Covering headlines.
-* Covering paragraphs.
-* Covering icons.
-* Covering charts.
-* Covering statistics.
+✗ Upside Down Rotation
 
 ---
 
-## Slide Usage Recommendations
+# Text Safety Rules
 
-Not every slide should contain a pose.
+Pose assets must never cover:
 
-Recommended usage:
+- Headlines
+- Paragraphs
+- Lists
+- Statistics
+- Charts
+- Tables
+- CTA Buttons
 
-### Cover Slide
+If overlap occurs:
+
+1. Reposition
+2. Resize
+3. Crop
+4. Remove Pose
+
+---
+
+# Pose Density Rules
+
+Pose usage is optional.
 
 Recommended:
 
-* Hello
-* Happy
-* Pointing
+30%–50% of total slides.
 
-### Problem Slide
+Example:
 
-Recommended:
+8-slide carousel
 
-* Wondering
-* Curious
-* Thinking
-* Shock
+- 3–4 slides with pose
+- 4–5 slides without pose
 
-### Educational Slide
-
-Recommended:
-
-* Presenting
-* Pointing
-* Busy
-
-### Insight Slide
-
-Recommended:
-
-* AHA Moment
-* Thinking
-
-### Mistake Slide
-
-Recommended:
-
-* Refuse
-* Upset
-* Shock
-
-### Conclusion Slide
-
-Recommended:
-
-* Thumbs Up
-* Clapping
-* Cheering
-
-### CTA Slide
-
-Recommended:
-
-* Pointing
-* Presenting
-* Thumbs Up
+Avoid using poses on every slide.
 
 ---
 
-## Slides That Should Not Use Pose Assets
+# No Pose Scenarios
 
-Avoid using pose assets when the slide contains:
+Do not use pose assets when slides contain:
 
-* Dense Infographics
-* Large Tables
-* Statistical Dashboards
-* Detailed Diagrams
-* Process Maps
-* Heavy Data Visualization
+- Tables
+- Statistics
+- Dashboards
+- Charts
+- Timelines
+- Process Maps
+- Comparison Grids
+- Dense Information
 
----
-
-## Best Practices
-
-✔ Use one pose per slide.
-
-✔ Keep poses under 30% of canvas area.
-
-✔ Maintain at least 70% content space.
-
-✔ Use pose assets only when they improve communication.
-
-✔ Prioritize readability over decoration.
-
-✔ Use metadata from pose_catalog.json for pose selection.
+Information should always take priority.
 
 ---
 
-## Intended Audience
+# AI Agent Instructions
 
-This repository is designed for:
+When generating carousel content:
 
-* AI Agents
-* GPT Assistants
-* Dify Workflows
-* n8n Automations
-* LangChain Applications
-* CrewAI Agents
-* Content Creators
-* Social Media Teams
-* Marketing Teams
-* Designers
+1. Determine SCRIPT stage.
+2. Follow carousel_rules.md.
+3. Follow slide_layout_rules.md.
+4. Follow ASSET_GUIDE.md.
+5. Select pose from pose_catalog.json.
+6. Retrieve image from Poses/.
+7. Verify readability.
+8. Apply crop if needed.
+9. Apply horizontal flip if needed.
+10. Remove pose if it reduces clarity.
 
----
+Priority Order:
 
-## Future Expansion
-
-Future versions may include:
-
-* Persona-specific poses
-* Business character poses
-* Professional attire variants
-* Emotion scoring
-* Directional metadata
-* Layout templates
-* Industry-specific pose sets
+```text
+Content
+↓
+Readability
+↓
+Layout
+↓
+Pose
+```
 
 ---
 
-## License
+# Design Philosophy
 
-Refer to the selected repository license.
+Information First.
+
+Visuals Second.
+
+Every slide must remain fully understandable even if all pose assets are removed.
+
+Pose assets enhance communication.
+
+Content delivers communication.
 
 ---
 
-## Version
+# AI Compatibility
 
-Current Version: 1.0.0
+Compatible with:
 
-Carousel Pose Library — Visual Assets for Information-First Content Creation.
+- OpenAI GPT
+- Custom GPTs
+- OpenAI Assistants
+- Dify
+- n8n
+- CrewAI
+- LangChain
+- LangGraph
+- Flowise
+- AutoGen
+- LlamaIndex
+- RAG Systems
+
+---
+
+# Version
+
+Current Version:
+
+```text
+2.0.0
+```
+
+Framework:
+
+```text
+SCRIPT
+```
+
+Status:
+
+```text
+Production Ready
+```
