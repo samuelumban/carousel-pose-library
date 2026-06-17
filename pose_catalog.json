@@ -1,0 +1,353 @@
+{
+"version": "1.0.0",
+"library": "Carousel Pose Library",
+"description": "Pose asset catalog for educational and informational carousel content.",
+"global_rules": {
+"allow_horizontal_flip": true,
+"allow_vertical_flip": false,
+"allow_crop": true,
+"allowed_crops": [
+"full_body",
+"three_quarter",
+"half_body",
+"medium_shot",
+"medium_closeup",
+"closeup",
+"extreme_closeup"
+],
+"max_pose_per_slide": 1,
+"text_priority": true,
+"avoid_covering_text": true,
+"recommended_canvas_usage": "20-30%"
+},
+"poses": [
+{
+"id": "happy",
+"file": "poses/Happy.png",
+"emotion": "positive",
+"intent": ["achievement","success","celebration","positive_tip"],
+"recommended_slides": ["cover","conclusion"],
+"energy": "high"
+},
+{
+"id": "walking",
+"file": "poses/Walking.png",
+"emotion": "progress",
+"intent": ["step_by_step","journey","roadmap","process"],
+"recommended_slides": ["education","framework"],
+"energy": "medium"
+},
+{
+"id": "wondering",
+"file": "poses/Wondering.png",
+"emotion": "thinking",
+"intent": ["hook","question","problem"],
+"recommended_slides": ["problem","opening"],
+"energy": "medium"
+},
+{
+"id": "sitting",
+"file": "poses/Sitting.png",
+"emotion": "calm",
+"intent": ["storytelling","explanation","reflection"],
+"recommended_slides": ["education"],
+"energy": "low"
+},
+{
+"id": "hello",
+"file": "poses/Hello.png",
+"emotion": "friendly",
+"intent": ["welcome","introduction","cover"],
+"recommended_slides": ["cover"],
+"energy": "medium"
+},
+{
+"id": "busy",
+"file": "poses/Busy.png",
+"emotion": "productive",
+"intent": ["workflow","productivity","activity"],
+"recommended_slides": ["education","tips"],
+"energy": "medium"
+},
+{
+"id": "running",
+"file": "poses/Running.png",
+"emotion": "action",
+"intent": ["urgency","speed","momentum"],
+"recommended_slides": ["tips","action"],
+"energy": "high"
+},
+{
+"id": "shock",
+"file": "poses/Shock.png",
+"emotion": "surprised",
+"intent": ["warning","mistake","fact"],
+"recommended_slides": ["problem","warning"],
+"energy": "high"
+},
+{
+"id": "aha_moment",
+"file": "poses/AHA_Moment.png",
+"emotion": "discovery",
+"intent": ["insight","solution","reveal"],
+"recommended_slides": ["insight","education"],
+"energy": "high"
+},
+{
+"id": "weary",
+"file": "poses/weary.png",
+"emotion": "tired",
+"intent": ["burnout","fatigue","struggle"],
+"recommended_slides": ["problem"],
+"energy": "low"
+},
+{
+"id": "pointing",
+"file": "poses/pointing.png",
+"emotion": "guide",
+"intent": ["highlight","cta","important_point"],
+"recommended_slides": ["cta","education"],
+"energy": "high"
+},
+{
+"id": "jumping",
+"file": "poses/jumping.png",
+"emotion": "excited",
+"intent": ["success","announcement","celebration"],
+"recommended_slides": ["cover","conclusion"],
+"energy": "high"
+},
+{
+"id": "shouting",
+"file": "poses/shouting.png",
+"emotion": "alert",
+"intent": ["announcement","warning","attention"],
+"recommended_slides": ["hook"],
+"energy": "high"
+},
+{
+"id": "presenting",
+"file": "poses/presenting.png",
+"emotion": "teaching",
+"intent": ["education","framework","tutorial"],
+"recommended_slides": ["education"],
+"energy": "medium"
+},
+{
+"id": "crying",
+"file": "poses/crying.png",
+"emotion": "sad",
+"intent": ["pain_point","mistake","loss"],
+"recommended_slides": ["problem"],
+"energy": "low"
+},
+{
+"id": "hi",
+"file": "poses/hi.png",
+"emotion": "friendly",
+"intent": ["welcome","greeting"],
+"recommended_slides": ["cover"],
+"energy": "medium"
+},
+{
+"id": "upset",
+"file": "poses/Upset.png",
+"emotion": "frustrated",
+"intent": ["mistake","problem","complaint"],
+"recommended_slides": ["problem"],
+"energy": "medium"
+},
+{
+"id": "cheering",
+"file": "poses/Cheering.png",
+"emotion": "supportive",
+"intent": ["motivation","celebration"],
+"recommended_slides": ["conclusion"],
+"energy": "high"
+},
+{
+"id": "two_thumbs_up",
+"file": "poses/Two_Thumbs_Up.png",
+"emotion": "approval",
+"intent": ["recommendation","best_practice"],
+"recommended_slides": ["summary","conclusion"],
+"energy": "high"
+},
+{
+"id": "boss",
+"file": "poses/boss.png",
+"emotion": "confidence",
+"intent": ["leadership","authority"],
+"recommended_slides": ["education","insight"],
+"energy": "medium"
+},
+{
+"id": "leaning",
+"file": "poses/leaning.png",
+"emotion": "casual",
+"intent": ["storytelling","explanation"],
+"recommended_slides": ["education"],
+"energy": "low"
+},
+{
+"id": "whispering",
+"file": "poses/whispering.png",
+"emotion": "secret",
+"intent": ["tip","hidden_fact","insider"],
+"recommended_slides": ["insight"],
+"energy": "medium"
+},
+{
+"id": "hearing",
+"file": "poses/hearing.png",
+"emotion": "listening",
+"intent": ["feedback","audience"],
+"recommended_slides": ["education"],
+"energy": "medium"
+},
+{
+"id": "thinking",
+"file": "poses/thinking.png",
+"emotion": "reflection",
+"intent": ["analysis","strategy","consideration"],
+"recommended_slides": ["problem","insight"],
+"energy": "medium"
+},
+{
+"id": "clapping",
+"file": "poses/clapping.png",
+"emotion": "appreciation",
+"intent": ["celebration","congratulation"],
+"recommended_slides": ["conclusion"],
+"energy": "high"
+},
+{
+"id": "yelling",
+"file": "poses/yelling.png",
+"emotion": "strong_alert",
+"intent": ["warning","attention"],
+"recommended_slides": ["hook"],
+"energy": "high"
+},
+{
+"id": "curious",
+"file": "poses/curious.png",
+"emotion": "curious",
+"intent": ["question","did_you_know"],
+"recommended_slides": ["hook"],
+"energy": "medium"
+},
+{
+"id": "yoga",
+"file": "poses/yoga.png",
+"emotion": "peaceful",
+"intent": ["mindset","balance","wellbeing"],
+"recommended_slides": ["education"],
+"energy": "low"
+},
+{
+"id": "laughing",
+"file": "poses/laughing.png",
+"emotion": "joy",
+"intent": ["fun_fact","positive_message"],
+"recommended_slides": ["education"],
+"energy": "medium"
+},
+{
+"id": "using_handphone",
+"file": "poses/using_handphone.png",
+"emotion": "digital",
+"intent": ["social_media","technology","mobile"],
+"recommended_slides": ["tips","education"],
+"energy": "medium"
+},
+{
+"id": "drink_coffee",
+"file": "poses/drink_coffee.png",
+"emotion": "relaxed",
+"intent": ["work","productivity","routine"],
+"recommended_slides": ["storytelling"],
+"energy": "low"
+},
+{
+"id": "sarangheo",
+"file": "poses/sarangheo.png",
+"emotion": "love",
+"intent": ["appreciation","community"],
+"recommended_slides": ["closing"],
+"energy": "medium"
+},
+{
+"id": "vlogging",
+"file": "poses/vlogging.png",
+"emotion": "creator",
+"intent": ["content_creation","social_media"],
+"recommended_slides": ["education"],
+"energy": "medium"
+},
+{
+"id": "drink_from_bottle",
+"file": "poses/drink_from_bottle.png",
+"emotion": "refresh",
+"intent": ["health","habit","lifestyle"],
+"recommended_slides": ["tips"],
+"energy": "low"
+},
+{
+"id": "refuse",
+"file": "poses/refuse.png",
+"emotion": "reject",
+"intent": ["dont_do_this","mistake"],
+"recommended_slides": ["warning"],
+"energy": "medium"
+},
+{
+"id": "laydown",
+"file": "poses/Laydown.png",
+"emotion": "rest",
+"intent": ["burnout","fatigue","recovery"],
+"recommended_slides": ["problem"],
+"energy": "low"
+},
+{
+"id": "selfie",
+"file": "poses/Selfie.png",
+"emotion": "social",
+"intent": ["branding","social_media"],
+"recommended_slides": ["tips"],
+"energy": "medium"
+},
+{
+"id": "affraid",
+"file": "poses/affraid.png",
+"emotion": "fear",
+"intent": ["risk","warning"],
+"recommended_slides": ["problem"],
+"energy": "medium"
+},
+{
+"id": "thumbs_up",
+"file": "poses/thumbs_up.png",
+"emotion": "approval",
+"intent": ["recommendation","success"],
+"recommended_slides": ["conclusion","cta"],
+"energy": "high"
+},
+{
+"id": "shy",
+"file": "poses/Shy.png",
+"emotion": "timid",
+"intent": ["beginner","hesitation"],
+"recommended_slides": ["storytelling"],
+"energy": "low"
+},
+{
+"id": "hands_on_hips",
+"file": "poses/Hands_on_Hips.png",
+"emotion": "confidence",
+"intent": ["authority","confidence","assertive"],
+"recommended_slides": ["education","insight"],
+"energy": "high"
+}
+]
+}
